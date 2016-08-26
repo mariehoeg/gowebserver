@@ -31,11 +31,11 @@ func to_roman(n int)  string {
     if n == 10 {
         return "X"
     }
-    if n == 100{
-        return "C"
-    }
     if n == 50 {
         return "L"
+    }
+    if n == 100{
+        return "C"
     }
     return "Not yet implemented"
 }
