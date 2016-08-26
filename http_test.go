@@ -74,6 +74,7 @@ func TestRomanThree(t *T) {
 
 }
 
+// Testing for roman numeral 4
 func TestRomanFour(t *T) {
     n := romanGenerator(1)
     r, _ := http.NewRequest("GET", "/roman/4", nil)
