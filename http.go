@@ -13,6 +13,9 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func to_roman(n int)  string {
+    if n == 1 {
+        return "I"
+    }
     if n == 2 {
         return "II"
     }
@@ -34,7 +37,7 @@ func to_roman(n int)  string {
     if n == 50 {
         return "L"
     }
-    return "I"
+    return "not defined"
 }
 
 type romanGenerator int
