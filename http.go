@@ -22,6 +22,9 @@ func to_roman(n int)  string {
     if n == 4 {
         return "IV"
     }
+    if n == 10 {
+        return "X"
+    }
     return "I"
 }
 
