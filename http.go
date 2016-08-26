@@ -37,7 +37,7 @@ func to_roman(n int)  string {
     if n == 50 {
         return "L"
     }
-    return "not defined"
+    return "Not yet implemented"
 }
 
 type romanGenerator int
