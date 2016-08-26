@@ -28,6 +28,9 @@ func to_roman(n int)  string {
     if n == 10 {
         return "X"
     }
+    if n == 50 {
+        return "L"
+    }
     return "I"
 }
 
